@@ -1,0 +1,18 @@
+.search-submit {
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 14%;
+}
+.filter-search-card{
+    margin-bottom: 15px;
+}
+.heading-card{
+    padding: 0;
+    margin: 0;
+}
+.ticket-cards{
+    margin-top: 10px;
+}
+.input-box-custom{
+border-radius: 15px;
+}
