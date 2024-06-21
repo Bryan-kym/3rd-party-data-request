@@ -1,4 +1,4 @@
-<div id="student" class="content mx-10 bg-white mt-3" style="display:none;">
+<div id="student" class="content mx-10 bg-white mt-3 rounded-div" style="display:none;">
 <h1 class="headsss">Student Form</h1>
 
 <!--    <div class="row">-->
