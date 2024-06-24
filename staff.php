@@ -1,4 +1,4 @@
-<div id="staff" class="content mx-10 bg-white mt-3" style="display:none;">
+<div id="staff" class="content mx-10 bg-white mt-3 rounded-div" style="display:none;">
     <h1 class="headsss">Staff Form</h1>
     <form id="staffForm" class="">
 <!--        <div class="card mt-10 ">-->

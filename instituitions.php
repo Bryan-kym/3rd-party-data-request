@@ -1,4 +1,4 @@
-<div id="institutions" class="content mx-10 bg-white mt-3" style="display:none;">
+<div id="institutions" class="content mx-10 bg-white mt-3 rounded-div" style="display:none;">
     <h1 class="headsss">Organizations Form</h1>
     <form id="nonStaffForm" class="">
         <div class="row">

@@ -24,7 +24,7 @@
         }
         .navbar {
             display: flex;
-            justify-content: space-around;
+            justify-content: start;
             background-color: #dc3737;
             padding: 1rem;
         }
@@ -34,8 +34,8 @@
             padding: 0.5rem 1rem;
         }
         .navbar a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #000000;
+            color: #ffffff;
         }
         .content {
             padding: 2rem;
@@ -58,6 +58,48 @@
         }
         .headsss{
             text-align: center;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .home-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
+
+        .card h2 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .rounded-div {
+            border-radius: 15px;
         }
     </style>
 </head>
