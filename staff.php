@@ -6,45 +6,39 @@
                 <div class="col-4">
                     <div class="form-group">
                         <label for="firstName">First Name</label>
-                        <input type="text" class="form-control" id="staffName" placeholder="Enter your full names">
+                        <input type="text" class="form-control" id="staffName" placeholder="First name">
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="form-group">
                         <label for="middleName">Middle Name</label>
-                        <input type="text" class="form-control" id="staffName" placeholder="Enter your full names">
+                        <input type="text" class="form-control" id="staffName" placeholder="Middle name">
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="form-group">
                         <label for="lastName">Last Name</label>
-                        <input type="text" class="form-control" id="staffName" placeholder="Enter your full names">
+                        <input type="text" class="form-control" id="staffName" placeholder="last name">
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <div class="form-group">
                         <label for="staffID">ID Number</label>
-                        <input type="text" class="form-control" id="staffID" placeholder="Enter your ID number">
+                        <input type="text" class="form-control" id="staffID" placeholder="ID">
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="form-group">
                         <label for="staffNumber">Staff Number</label>
-                        <input type="text" class="form-control" id="staffNumber" placeholder="Enter your staff number">
+                        <input type="text" class="form-control" id="staffNumber" placeholder="K000.../T...">
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-6">
                     <div class="form-group">
                         <label for="staffEmail">Email Address</label>
                         <input type="email" class="form-control" id="staffEmail" placeholder="Enter your email address">
                     </div>
                 </div>
-            </div>
-
-
-            <div class="row">
                 <div class="col-6">
                     <div class="form-group">
                         <label for="staffDepartment">Department</label>
@@ -62,7 +56,7 @@
         <div class="row">
             <div class="col-4"></div>
             <div class="col-4">
-                <button type="submit" class="btn btn-primary btn-block"> Submit </button>
+                <button type="button" id="nextButtonStaff" class="btn btn-primary btn-block"> Next </button>
             </div>
             <div class="col-4"></div>
         </div>
@@ -70,3 +64,8 @@
 <!--        </div>-->
     </form>
 </div>
+
+<?php
+include 'data-request.php'
+?>
+
