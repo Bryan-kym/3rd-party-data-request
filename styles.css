@@ -15,8 +15,9 @@ body {
     padding: 0.5rem 1rem;
 }
 .navbar a:hover {
-    background-color: #000000;
+    /*background-color: #1fce3c;*/
     color: #ffffff;
+    text-decoration: underline;
 }
 .content {
     padding: 2rem;
@@ -171,5 +172,9 @@ footer p {
 
 footer .list-unstyled li {
     margin: 0.5rem 0;
+}
+.contain{
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
