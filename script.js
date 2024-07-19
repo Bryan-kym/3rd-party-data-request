@@ -47,3 +47,26 @@ $(document).ready(function() {
         }, 500); // Match the timeout with the CSS transition duration
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('staffForm');
+    const inputs = form.querySelectorAll('input');
+    const nextButton = document.getElementById('nextButtonStaff');
+
+    function checkFormValidity() {
+        let allFilled = true;
+        inputs.forEach(input => {
+            if (input.value === '' && input.hasAttribute('required')) {
+                allFilled = false;
+            }
+        });
+        nextButton.disabled = !allFilled;
+    }
+
+    inputs.forEach(input => {
+        input.addEventListener('input', checkFormValidity);
+    });
+});
+
+

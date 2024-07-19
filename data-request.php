@@ -25,7 +25,7 @@
         </div>
         <div class="form-group">
             <label for="additionalInfo">Purpose/expected outcome of the data required</label>
-            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Enter additional information"></textarea>
+            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Give reasons for the data request"></textarea>
         </div>
         <div class="row">
             <div class="col-6">
@@ -65,7 +65,7 @@
         </div>
         <div class="form-group">
             <label for="additionalInfo">Purpose/expected outcome of the data required</label>
-            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Enter additional information"></textarea>
+            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Give reasons for the data request"></textarea>
         </div>
         <div class="row">
             <div class="col-6">
@@ -105,7 +105,7 @@
         </div>
         <div class="form-group">
             <label for="additionalInfo">Purpose/expected outcome of the data required</label>
-            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Enter additional information"></textarea>
+            <textarea type="text" class="form-control" id="additionalInfo" placeholder="Give reasons for the data request"></textarea>
         </div>
         <div class="row">
             <div class="col-6">
