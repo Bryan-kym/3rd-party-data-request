@@ -56,7 +56,7 @@ body {
     flex-wrap: wrap;
 }
 
-.card {
+.card1 {
     background: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ body {
     border:2px solid #babbc5;
 }
 
-.card img {
+.card1 img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -76,12 +76,12 @@ body {
     border-radius: 50%;
 }
 
-.card h2 {
+.card1 h2 {
     font-size: 18px;
     color: #333;
 }
 
-.card:hover {
+.card1:hover {
     transform: scale(1.05);
 }
 .rounded-div {
@@ -177,4 +177,37 @@ footer .list-unstyled li {
     padding-left: 2%;
     padding-right: 2%;
 }
+.form-group label {
+    display: block;
+    /*margin-bottom: 0.5rem; !* Add some space between label and input *!*/
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.cards {
+    background: #ececec;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border:2px solid #babbc5;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.card{
+    margin-bottom: 5px;
+    margin: roun;
+}
+.card-header:hover {
+    transform: scale(1.05);
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+}
+
 

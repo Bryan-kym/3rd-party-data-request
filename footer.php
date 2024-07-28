@@ -1,7 +1,7 @@
     <div class="contain py-4">
         <div class="row  py-3">
             <div class="col-md-2">
-                <img src="assets/images/kralogol.png" alt="KRA logo" style="max-width: 200px;">
+                <img src="assets/images/favicon.ico" alt="KRA logo" style="max-width: 200px;">
             </div>
             <div class="col-md-3 d-flex align-items-center">
                 <div>
